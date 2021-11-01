@@ -10,4 +10,12 @@ body{
     border: none;
     border-radius: 7px;
     padding: 8px 15px;
+    cursor: pointer;
 }
+.navbar-nav{
+    color: gray;
+}
+.navbar-nav > li{
+    padding-left:18px;
+    padding-right:18px;
+  }

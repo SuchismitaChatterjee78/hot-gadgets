@@ -19,3 +19,32 @@ body{
     padding-left:18px;
     padding-right:18px;
   }
+.card{
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+.card-img{
+    border-radius: 10px 10px 0px 0px;
+    padding: 25px;
+  }
+  .mb-10{
+    padding-bottom: 30px;
+  }
+.container{
+    margin-bottom: 50px;
+}
+.carousel-item{
+background-image: url(images/bg-1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 5%;
+padding-bottom: 50px;
+}
+.single-cat{
+    box-shadow: 5px 5px 20px lightgray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    
+}

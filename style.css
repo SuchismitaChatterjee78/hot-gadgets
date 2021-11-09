@@ -2,49 +2,66 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .navbar{
-    width: 100%;
+  width: 100%;
 }
 .buy-now-button{
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 7px;
-    padding: 8px 15px;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 .navbar-nav{
-    color: gray;
+  color: gray;
 }
 .navbar-nav > li{
-    padding-left:18px;
-    padding-right:18px;
+  padding-left:18px;
+  padding-right:18px;
   }
 .card{
-    border: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
   }
 .card-img{
-    border-radius: 10px 10px 0px 0px;
-    padding: 25px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 25px;
   }
-  .mb-10{
-    padding-bottom: 30px;
+.mb-10{
+  padding-bottom: 30px;
   }
 .container{
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .carousel-item{
-background-image: url(images/bg-1.png);
-background-repeat: no-repeat;
-background-position: center;
-background-size: 5%;
-padding-bottom: 50px;
+  background-image: url(images/bg-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5%;
+  padding-bottom: 50px;
 }
 .single-cat{
-    box-shadow: 5px 5px 20px lightgray;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: center;
-    
+  box-shadow: 5px 5px 20px lightgray;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+#contact{
+  height:300px;
+}
+#contact h6{
+  color: black;
+}
+footer{
+  text-align: center;
+  color: darkgray;
+}
+.orange-bg{
+  background-image: linear-gradient(to right, #FF9A14 0%, #FFC270 100%);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px ;
+}
+.container h4{
+  padding-top: 40px;
 }
